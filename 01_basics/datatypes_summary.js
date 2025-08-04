@@ -38,4 +38,30 @@ const myFunction=function(){
 }
 
 
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+// Stack (primitive), heap(Non preimitive) 
+
+
+///Stack example
+let myName="rihsikesh Sagare"
+
+let anothername=myName
+anothername="rishikesh Rajendra Sagare"
+console.log(myName);
+console.log(anothername);
+
+//heap
+ let userOne={
+    email:"user@gamil.com",
+    upi:"user@hdfc"
+ }
+
+ let userTwo=userOne
+
+userTwo.email="rishi2gmail.com"
+console.log(userOne.email);
+console.log(userTwo.email);
+
 
